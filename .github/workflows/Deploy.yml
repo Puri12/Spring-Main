@@ -1,9 +1,9 @@
 name: Spring-Main CI/CD
 
 on:
-#   push:
-#     branches:
-#       - main
+  push:
+    branches:
+      - main
 #       - develope
 #   pull_request:
 #     branches:
