@@ -1,14 +1,14 @@
 name: Spring-Main CI/CD
 
 on:
-  push:
-    branches:
-      - main
-      - develope
-  pull_request:
-    branches:
-      - main
-      - develope
+#   push:
+#     branches:
+#       - main
+#       - develope
+#   pull_request:
+#     branches:
+#       - main
+#       - develope
 
 permissions:
   contents: read
