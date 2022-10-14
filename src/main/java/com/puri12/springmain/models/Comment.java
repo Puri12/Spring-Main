@@ -19,6 +19,14 @@ public class Comment extends Timestamped {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @JoinColumn(name = "mamber_id", nullable = false)
+    @ManyToOne(fetch = FetchType.LAZY)
+    private Member member;
+
+    @JoinColumn(name = "post_id", nullable = false)
+    @ManyToOne(fetch = FetchType.LAZY)
+    private Post post;
+
     @Column(nullable = false)
     private String content;
 
