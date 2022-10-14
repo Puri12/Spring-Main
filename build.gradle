@@ -25,6 +25,12 @@ dependencies {
 //	Security
 	implementation 'org.springframework.boot:spring-boot-starter-security'
 
+
+////     JWT
+//	compileOnly group: 'io.jsonwebtoken', name: 'jjwt-api'
+//	runtimeOnly group: 'io.jsonwebtoken', name: 'jjwt-impl'
+//	runtimeOnly group: 'io.jsonwebtoken', name: 'jjwt-jackson'
+
 //  validation
 	implementation 'org.springframework.boot:spring-boot-starter-validation'
 	compileOnly 'org.projectlombok:lombok'
